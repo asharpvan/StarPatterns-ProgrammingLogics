@@ -184,7 +184,7 @@ int main(int argc, char * argv[]) {
         printf("\n-----------Anagram check--------------\n");
         
         NSString *stringOne  = @"pranavsah";
-        NSString *stringTwo  = @"asharpvans";
+        NSString *stringTwo  = @"asharpvan";
         
         if([stringOne length]!=[stringTwo length]){
             NSLog(@"Not Anagram");
